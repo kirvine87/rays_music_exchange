@@ -29,7 +29,15 @@ public class ShopTest {
     @Test
     public void removeItemToStock() {
         shop.addItemToStock(guitar);
+        shop.addItemToStock(guitarStrings);
         shop.removeItemToStock(guitarStrings);
         assertEquals(1, shop.getStock().size());
+    }
+
+    @Test
+    public void potentialProfit() {
+        shop.addItemToStock(guitar);
+        shop.addItemToStock(guitarStrings);
+        assertEquals(5176.60, shop.shopStockProfit(), 0.01);
     }
 }
