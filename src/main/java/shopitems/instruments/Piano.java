@@ -1,4 +1,4 @@
-package instruments;
+package shopitems.instruments;
 
 public class Piano extends Instrument{
 

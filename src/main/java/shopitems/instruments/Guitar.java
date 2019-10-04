@@ -1,4 +1,4 @@
-package instruments;
+package shopitems.instruments;
 
 public class Guitar extends Instrument {
 

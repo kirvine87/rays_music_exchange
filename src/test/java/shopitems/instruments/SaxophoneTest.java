@@ -1,4 +1,4 @@
-package instruments;
+package shopitems.instruments;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -23,5 +23,5 @@ public class SaxophoneTest {
     public void canGetMarkUp(){
         assertEquals(48.00, saxophone.calculateMarkUp(), 0.01);
     }
-    
+
 }
